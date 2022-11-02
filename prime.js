@@ -14,10 +14,11 @@ function prime(number){
      } 
        return false
     }
-let ans=prime(5);
+}
+let answer=prime(5);
 
-if(ans==true){
+if(answer==true){
      console.log("prime number")
 }else{
-     console.log("not prime number")
+     console.log("is a not prime number")
 }
